@@ -28,7 +28,7 @@ def mbd(y_true, y_pred):
     return np.mean(y_pred - y_true)
 
 # Load the cleaned data
-cleaned_data = pd.read_csv('D:\\Mehran\\PhD\\Researches\\R5- ML\\Excel\\Python\\cleaned_data.csv')
+cleaned_data = pd.read_csv('...\\cleaned_data.csv')
 
 # Trim column names to remove leading/trailing whitespace
 cleaned_data.columns = cleaned_data.columns.str.strip()
